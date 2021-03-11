@@ -3,7 +3,7 @@ networks:
   laravel:
 services:
   nginx:
-    image: nginx:stable-alphine
+    image: nginx:stable-alpine
     networks: 
       - laravel
     container_name: nginx
