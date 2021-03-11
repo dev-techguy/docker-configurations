@@ -8,7 +8,7 @@ services:
       - laravel
     container_name: nginx
     ports:
-      - "8080:80"
+      - "80:80"
     depends_on: 
       - php
       - pgsql
